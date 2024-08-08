@@ -1,0 +1,83 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card-container {
+background-color: hsl(0, 0%, 12%);
+padding: 20px 30px;
+border-radius: 15px;
+width: 300px;
+padding-left: 10px;
+padding-right: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.card-container img {
+width: 80px;
+height: 80px;
+border-radius: 50%;
+display: block;
+margin-inline: auto;
+}
+.card-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.card-container h4 {
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.card-container p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.card-container #green-text {
+    color: hsl(75, 94%, 57%);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.card-container .social-media {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: grid;
+}
+.card-container .social-media a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card-container .social-media a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+.card-container .social-media a:active {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
